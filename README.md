@@ -32,6 +32,6 @@ $.ajax({
 
 Below are some of the most common ways to include gdrJS.
 
-```markdown
+```html
 <script src="gdr.js"></script>
 ```
