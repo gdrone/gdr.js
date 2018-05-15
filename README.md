@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## What is gdrJS?
 
-You can use the [editor on GitHub](https://github.com/gdrone/gdr.js/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+gdrJS is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, gdrJS has changed the way that millions of people write JavaScript.
 
 ### Markdown
 
