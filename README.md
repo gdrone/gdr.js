@@ -6,17 +6,15 @@ gdrJS is a fast, small, and feature-rich JavaScript library. It makes things lik
 
 Get the <button> element with the class 'continue' and change its HTML to 'Next Step...
   
-```markdown
+```javascript
 $( "button.continue" ).html( "Next Step..." )
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Ajax
 
 Call a local script on the server /api/getData with the query parameter zipcode=97201 and replace the element #data-temp's html with the returned text
 
-```markdown
+```javascript
 $.ajax({
   url: "/api/getData",
   data: {
