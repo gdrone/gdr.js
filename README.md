@@ -4,7 +4,7 @@ gdrJS is a fast, small, and feature-rich JavaScript library. It makes things lik
 
 ### DOM Traversal and Manipulation
 
-Get the '''html <button> ''' element with the class "continue" and change its HTML to Next Step...
+Get the ```html <button> ``` element with the class "continue" and change its HTML to Next Step...
   
 ```javascript
 $( "button.continue" ).html( "Next Step..." )
