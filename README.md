@@ -12,7 +12,7 @@ $( "button.continue" ).html( "Next Step..." )
 
 ### Ajax
 
-Call a local script on the server /api/getData with the query parameter zipcode=97201 and replace the element #data-temp's html with the returned text
+Call a local script on the server /api/getData with the query parameter id=236 and replace the element #data-temp's html with the returned text
 
 ```javascript
 $.ajax({
