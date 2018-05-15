@@ -2,34 +2,36 @@
 
 gdrJS is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, gdrJS has changed the way that millions of people write JavaScript.
 
-### Markdown
+### DOM Traversal and Manipulation
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+Get the <button> element with the class 'continue' and change its HTML to 'Next Step...
+  
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+$( "button.continue" ).html( "Next Step..." )
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Ajax
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gdrone/gdr.js/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Call a local script on the server /api/getData with the query parameter zipcode=97201 and replace the element #data-temp's html with the returned text
 
-### Support or Contact
+```markdown
+$.ajax({
+  url: "/api/getData",
+  data: {
+    id: 236
+  },
+  success: function( result ) {
+    $( "#data-temp" ).html( "<strong>" + result + "</strong> degrees" );
+  }
+});
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Including gdrJS
+
+Below are some of the most common ways to include gdrJS.
+
+```markdown
+<script src="gdr.js"></script>
+```
