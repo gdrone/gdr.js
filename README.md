@@ -33,3 +33,5 @@ Below are some of the most common ways to include gdrJS.
 ```html
 <script src="gdr.js"></script>
 ```
+
+[Official site and demo page](https://gdr.one/ru/gdr-js)
